@@ -9,7 +9,15 @@
   margin-bottom: 0;
   background-color: #fff;
 }
+@media (min-width: 320px) {
+  :root {
+    --jumbotron-padding-y: 5rem;
+  }
+}
 @media (min-width: 768px) {
+  :root {
+    --jumbotron-padding-y: 3rem;
+  }
   .jumbotron {
     padding-top: calc(var(--jumbotron-padding-y) * 2);
     padding-bottom: calc(var(--jumbotron-padding-y) * 1);
